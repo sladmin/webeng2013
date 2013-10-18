@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 	echo "Hausafugabe";
 ?>
 
@@ -27,3 +28,8 @@
    </html>
 
 
+=======
+	echo "Hello World";
+	phpinfo();
+?>
+>>>>>>> d5746e6194174fb3b0f93718a30a7499d22e50c4
