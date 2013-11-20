@@ -1,7 +1,3 @@
-<?php
-header("Content-Type: text/xhtml; charset=utf-8");
-?> 
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE html 
@@ -11,8 +7,10 @@ header("Content-Type: text/xhtml; charset=utf-8");
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
 	
 	<head>
-		<title>Bootstrap 101 Template</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
 		<link rel="stylesheet" type="text/css" href="css/style.css" />	
+		
+		<title>Kapitel 6 - Hausaufgabe</title>		
    	</head>
    		
    	<body>
