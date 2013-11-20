@@ -28,7 +28,7 @@
 				<li>Semantisches HTML?</li>
 			</ol>
 			<p>CSS und HTML der Seite wurden mit dem W3C-Validator validiet (keine Fehler, keine Warnungen).</p>
-			<p id="zitat">Dieser Text wurde in seinem Inhalt von mir geändert. Der Originaltext befindet sich <a href="https://iversity.org/my/courses/web-engineering-i-grundlagen-der-web-entwicklung/assessment_units/4361/intro">hier</a></p>
+			<p id="zitat">Dieser Text wurde in seinem Inhalt von mir geändert. Der Originaltext befindet sich <a href="https://iversity.org/my/courses/web-engineering-i-grundlagen-der-web-entwicklung/assessment_units/4361/intro" target="_blank">hier</a></p>
 		</div>
 
 		<div id="tabelle">
