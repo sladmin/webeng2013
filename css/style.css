@@ -10,6 +10,11 @@ body {
   padding : 3em 0 1em 0;
 }
 
+#zitat {
+  font-style: italic;
+  font-size: 0.7em;
+}
+
 h1, th {
   font-size : 1.1em;
   text-align : center;
@@ -20,6 +25,8 @@ table {
   table-layout : inherit;
   text-align : center;
   background-color : #708090;
+  width : auto;
+
 }
 
 th, td {
@@ -50,7 +57,7 @@ td {
   background-color : #B0C4DE;
   text-align : left;
   padding : 0.3em;
-  white-space : nowrap;
+  /* white-space : nowrap; */
 }
 
 tbody td:first-child {
@@ -77,6 +84,7 @@ tr:hover td {
 }
 
 #footer p {
+  display : inline;
   padding-right : 0.3em;
   color : white;
 }

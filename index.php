@@ -1,3 +1,7 @@
+<?php
+header("Content-Type: text/xhtml; charset=utf-8");
+?> 
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE html 
@@ -18,14 +22,15 @@
 		</div>
 
 		<div id="einleitung">
-			<p>In dieser Hausaufgabe sollen Sie auf Ihrer Website bei cloudControl eine XHTML-1.0-strict-Seite erstellen. Die Seite soll eine "schön" formatierte Tabelle aller 77 Elemente zeigen mit den folgenden Spalten:</p>
+			<p>In dieser Hausaufgabe wurde diese Website bei cloudControl als eine XHTML-1.0-strict-Seite erstellt. Die folgende Tabelle zeigt alle 77 Elemente mit den folgenden Spalten:</p>
 			<ol>
 				<li>Element-Tag mit den spitzen Klammern</li>
 				<li>Elementbeschreibung</li>
 				<li>Inline- oder Blockelement?</li>
 				<li>Semantisches HTML?</li>
 			</ol>
-			<p>CSS und HTML der Seite sind mit dem W3C-Validator zu validieren (keine Fehler, keine Warnungen).</p>
+			<p>CSS und HTML der Seite wurden mit dem W3C-Validator validiet (keine Fehler, keine Warnungen).</p>
+			<p id="zitat">Dieser Text wurde in seinem Inhalt von mir geändert. Der Originaltext befindet sich <a href="https://iversity.org/my/courses/web-engineering-i-grundlagen-der-web-entwicklung/assessment_units/4361/intro">hier</a></p>
 		</div>
 
 		<div id="tabelle">
@@ -873,6 +878,18 @@
 
 		<div id="footer">
 			<p>Erstellt von Sladan Nencic, November 2013</p>
+
+			<p><a href="http://validator.w3.org/check?uri=referer"><img
+      				src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+  			</p>
+
+			<p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+    				<img style="border:0;width:88px;height:31px"
+        			src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        			alt="Valid CSS!" />
+			</a>
+			</p>
+  
     		</div>
 	</body>
     	
