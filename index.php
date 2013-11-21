@@ -57,7 +57,7 @@
 		    			<td>2</td>
 		    			<td>&lt;abbr&gt;</td>
 		    			<td>Abkürzung</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -65,7 +65,7 @@
 		    			<td>3</td>
 		    			<td>&lt;address&gt;</td>
 		    			<td>Kontaktangabe zum Autor eines Inhalts (Credits)</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -105,7 +105,7 @@
 		    			<td>8</td>
 		    			<td>&lt;b&gt;</td>
 		    			<td>Stilistische Hervorhebung im Text (üblicherweise fett dargestellt)</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td>nicht semantisch</td>
 		    		</tr>
 		    		
@@ -129,7 +129,7 @@
 		    			<td>11</td>
 		    			<td>&lt;bdo&gt;</td>
 		    			<td>Richtungsänderung bei bidirektionalem Text</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -137,7 +137,7 @@
 		    			<td>12</td>
 		    			<td>&lt;blockquote&gt;</td>
 		    			<td>Zitat in Form eines eigenen Textabsatzes</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -153,7 +153,7 @@
 		    			<td>14</td>
 		    			<td>&lt;br&gt;</td>
 		    			<td>Erzwungener Zeilenumbruch an der betreffenden Stelle</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -161,7 +161,7 @@
 		    			<td>15</td>
 		    			<td>&lt;button&gt;</td>
 		    			<td>Schaltfläche in einem Formular</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -185,7 +185,7 @@
 		    			<td>18</td>
 		    			<td>&lt;cite&gt;</td>
 		    			<td>Zitat innerhalb eines Absatzes</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -193,7 +193,7 @@
 		    			<td>19</td>
 		    			<td>&lt;code&gt;</td>
 		    			<td>Quelltext-Auszug innerhalb eines Absatzes</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -225,7 +225,7 @@
 		    			<td>23</td>
 		    			<td>&lt;dd&gt;</td>
 		    			<td>Definition, Beschreibung, detaillierter Inhalt zu einem dt-Element</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -233,7 +233,7 @@
 		    			<td>24</td>
 		    			<td>&lt;del&gt;</td>
 		    			<td>gelöschter Inhalt (Änderungsmarkierung)</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -249,7 +249,7 @@
 		    			<td>26</td>
 		    			<td>&lt;dfn&gt;</td>
 		    			<td>Definition innerhalb eines Absatzes</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -265,7 +265,7 @@
 		    			<td>28</td>
 		    			<td>&lt;div&gt;</td>
 		    			<td>Allgemeiner Bereich</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -273,7 +273,7 @@
 		    			<td>29</td>
 		    			<td>&lt;dl&gt;</td>
 		    			<td>Liste mit dt- und dd-Elementen, für Definitionslisten, Dialoge usw.</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -281,7 +281,7 @@
 		    			<td>30</td>
 		    			<td>&lt;dt&gt;</td>
 		    			<td>Zu definierender Ausdruck in einer Definitionsliste, Sprechername in einem Dialog usw.</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -289,7 +289,7 @@
 		    			<td>31</td>
 		    			<td>&lt;em&gt;</td>
 		    			<td>emphatischer Ausdruck innerhalb eines Absatzes (z.B. überspitzte Formulierung)</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td>semantisch</td>
 		    		</tr>
 		    		
@@ -337,7 +337,7 @@
 		    			<td>37</td>
 		    			<td>&lt;form&gt;</td>
 		    			<td>Formular, Dialog</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -345,7 +345,7 @@
 		    			<td>38</td>
 		    			<td>&lt;h1&gt; - &lt;h6&gt;</td>
 		    			<td>Überschrift 1. bis 6. Ordnung</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -377,7 +377,7 @@
 		    			<td>42</td>
 		    			<td>&lt;hr&gt;</td>
 		    			<td>Trennlinie</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -393,7 +393,7 @@
 		    			<td>44</td>
 		    			<td>&lt;i&gt;</td>
 		    			<td>spezieller Ausdruck im Text, z.B. Fachterminus oder Idiom (üblicherweise kursiv dargestellt)</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td>nicht semantisch</td>
 		    		</tr>
 		    		
@@ -401,7 +401,7 @@
 		    			<td>45</td>
 		    			<td>&lt;iframe&gt;</td>
 		    			<td>Eingebettetes Framefenster für beliebige andere Inhalte</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -409,7 +409,7 @@
 		    			<td>46</td>
 		    			<td>&lt;img&gt;</td>
 		    			<td>Referenzierte und eingebettete Grafik</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -417,7 +417,7 @@
 		    			<td>47</td>
 		    			<td>&lt;input&gt;</td>
 		    			<td>Formularelement, verwendbar für diverse Typen wie Eingabefelder, Schaltflächen, Auswahlfelder usw.</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -425,7 +425,7 @@
 		    			<td>48</td>
 		    			<td>&lt;ins&gt;</td>
 		    			<td>Eingefügter Inhalt (Änderungsmarkierung)</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -433,7 +433,7 @@
 		    			<td>49</td>
 		    			<td>&lt;kbd&gt;</td>
 		    			<td>Darstellung eines über Tastatur einzugebenden Textes im Text</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -449,7 +449,7 @@
 		    			<td>51</td>
 		    			<td>&lt;label&gt;</td>
 		    			<td>Beschriftungstext eines Formularfeldes</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -457,7 +457,7 @@
 		    			<td>52</td>
 		    			<td>&lt;legend&gt;</td>
 		    			<td>Überschrift für eine fieldset-Gruppe von Elementen in einem Formular</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -465,7 +465,7 @@
 		    			<td>53</td>
 		    			<td>&lt;li&gt;</td>
 		    			<td>Listenpunkt in einer ul-, ol- oder menu-Liste</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -561,7 +561,7 @@
 		    			<td>65</td>
 		    			<td>&lt;ol&gt;</td>
 		    			<td>Geordnete (z.B. nummerierte) Liste</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -569,7 +569,7 @@
 		    			<td>66</td>
 		    			<td>&lt;optgroup&gt;</td>
 		    			<td>Gruppe von Auswahlmöglichkeiten in einer Auswahlliste</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -577,7 +577,7 @@
 		    			<td>67</td>
 		    			<td>&lt;option&gt;</td>
 		    			<td>Auswahlmöglichkeit in einer Auswahlliste</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -593,7 +593,7 @@
 		    			<td>69</td>
 		    			<td>&lt;p&gt;</td>
 		    			<td>Textabsatz</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -609,7 +609,7 @@
 		    			<td>71</td>
 		    			<td>&lt;pre&gt;</td>
 		    			<td>Präformatierter Text (alle Whitespace-Zeichen werden im Browser so dargestellt wie im Text enthalten)</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -625,7 +625,7 @@
 		    			<td>73</td>
 		    			<td>&lt;q&gt;</td>
 		    			<td>Wörtliche Rede in einem Text</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -665,7 +665,7 @@
 		    			<td>78</td>
 		    			<td>&lt;samp&gt;</td>
 		    			<td>Beispieltext in einem dokumentierenden Text</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -689,7 +689,7 @@
 		    			<td>81</td>
 		    			<td>&lt;select&gt;</td>
 		    			<td>Auswahlliste in einem Formular</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -697,7 +697,7 @@
 		    			<td>82</td>
 		    			<td>&lt;small&gt;</td>
 		    			<td>kleiner dargestellter Text als Normalschrift</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -713,7 +713,7 @@
 		    			<td>84</td>
 		    			<td>&lt;span&gt;</td>
 		    			<td>allgemeiner Bereich innerhalb eines Absatzes</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -721,7 +721,7 @@
 		    			<td>85</td>
 		    			<td>&lt;strong&gt;</td>
 		    			<td>stark betonter Inhalt im Text</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -737,7 +737,7 @@
 		    			<td>87</td>
 		    			<td>&lt;sub&gt;</td>
 		    			<td>Tiefgestellter Text</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -745,7 +745,7 @@
 		    			<td>88</td>
 		    			<td>&lt;sup&gt;</td>
 		    			<td>Hochgestellter Text</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -753,7 +753,7 @@
 		    			<td>89</td>
 		    			<td>&lt;table&gt;</td>
 		    			<td>Tabelle</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -761,7 +761,7 @@
 		    			<td>90</td>
 		    			<td>&lt;tbody&gt;</td>
 		    			<td>Tabellenkörper mit den eigentlichen Daten</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -769,7 +769,7 @@
 		    			<td>91</td>
 		    			<td>&lt;td&gt;</td>
 		    			<td>Tabellenzelle</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -777,7 +777,7 @@
 		    			<td>92</td>
 		    			<td>&lt;textarea&gt;</td>
 		    			<td>Mehrzeiliger Eingabebereich in einem Formular</td>
-		    			<td></td>
+		    			<td>Inline-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -785,7 +785,7 @@
 		    			<td>93</td>
 		    			<td>&lt;tfoot&gt;</td>
 		    			<td>Fußbereich in einer Tabelle, z.B. für summarische Daten</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -793,7 +793,7 @@
 		    			<td>94</td>
 		    			<td>&lt;th&gt;</td>
 		    			<td>Tabellenkopfzelle</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -801,7 +801,7 @@
 		    			<td>95</td>
 		    			<td>&lt;thead&gt;</td>
 		    			<td>Kopfbereich einer Tabelle</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -825,7 +825,7 @@
 		    			<td>98</td>
 		    			<td>&lt;tr&gt;</td>
 		    			<td>Tabellenzeile</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
@@ -841,7 +841,7 @@
 		    			<td>100</td>
 		    			<td>&lt;ul&gt;</td>
 		    			<td>Unsortierte Liste (Aufzählungsliste)</td>
-		    			<td></td>
+		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
 		    		
