@@ -64,7 +64,7 @@
 		    		<tr>
 		    			<td>3</td>
 		    			<td>&lt;acronym&gt;</td>
-		    			<td>?</td>
+		    			<td>Aussprechbare Abkürzung, z.B. NATO oder WYSIWYG. Wurde wegen der Ähnlichkeit zum abbr-Element und der Tatsache, dass kaum jemand die Bedeutungen auseinander halten kann, in HTML5 entfernt.</td>
 		    			<td>Block-Tag</td>
 		    			<td></td>
 		    		</tr>
