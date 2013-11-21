@@ -3,6 +3,7 @@ body {
   margin : 0 auto;
   font-family : Verdana, Helvetica, Serif;
   background-color : #FFDEBD;
+  /* background-image : url(../img/); */
 }
 
 #banner {
