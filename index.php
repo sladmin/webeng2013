@@ -48,7 +48,7 @@
 		    	<td>&lt;a&gt;</td>
 		    	<td>Verweis (Hyperlink) und Anker für Verweise</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    		
 		    <tr>
@@ -56,7 +56,7 @@
 		    	<td>&lt;abbr&gt;</td>
 		    	<td>Abkürzung</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    		
 		    <tr>
@@ -88,7 +88,7 @@
 		    	<td>&lt;b&gt;</td>
 		    	<td>Stilistische Hervorhebung im Text (üblicherweise fett dargestellt)</td>
 		    	<td>Inline-Element</td>
-		    	<td>nicht semantisch</td>
+		    	<td>semantisch</td>
 		    </tr>
 		    		
 		    <tr>
@@ -104,7 +104,7 @@
 		    	<td>&lt;bdo&gt;</td>
 		    	<td>Richtungsänderung bei bidirektionalem Text</td>
 		    	<td>Inline-Element</td>
-		        <td></td>
+		        <td>semantisch</td>
 		    </tr>
 		    	
 		    <tr>
@@ -127,7 +127,7 @@
 		    	<td>11</td>
 		    	<td>&lt;body&gt;</td>
 		    	<td>Inhaltsbereich eines HTML-Dokuments</td>
-		    	<td></td>
+		    	<td>Block-Element</td>
 		    	<td></td>
 		    </tr>
 		    		
@@ -151,7 +151,7 @@
 		    	<td>14</td>
 		    	<td>&lt;caption&gt;</td>
 		    	<td>Tabellenüberschrift / -unterschrift</td>
-		    	<td></td>
+		    	<td>Inline-Element</td>
 		    	<td></td>
 		    </tr>
 		    		
@@ -160,7 +160,7 @@
 		    	<td>&lt;cite&gt;</td>
 		    	<td>Zitat innerhalb eines Absatzes</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    		
 		    <tr>
@@ -168,7 +168,7 @@
 		    	<td>&lt;code&gt;</td>
 		    	<td>Quelltext-Auszug innerhalb eines Absatzes</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    		
 		    <tr>
@@ -208,7 +208,7 @@
 		    	<td>&lt;dfn&gt;</td>
 		    	<td>Definition innerhalb eines Absatzes</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 
 		    <tr>
@@ -296,7 +296,7 @@
 		    	<td>&lt;i&gt;</td>
 		    	<td>spezieller Ausdruck im Text, z.B. Fachterminus oder Idiom (üblicherweise kursiv dargestellt)</td>
 		    	<td>Inline-Element</td>
-		    	<td>nicht semantisch</td>
+		    	<td>semantisch</td>
 		    </tr>
 
 		    <tr>
@@ -328,7 +328,7 @@
 		    	<td>&lt;kbd&gt;</td>
 		    	<td>Darstellung eines über Tastatur einzugebenden Textes im Text</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 
                     <tr>
@@ -448,7 +448,7 @@
 		    	<td>&lt;q&gt;</td>
 		    	<td>Wörtliche Rede in einem Text</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 
 		    <tr>
@@ -456,7 +456,7 @@
 		    	<td>&lt;samp&gt;</td>
 		    	<td>Beispieltext in einem dokumentierenden Text</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    	
 		    <tr>
@@ -480,7 +480,7 @@
 		    	<td>&lt;small&gt;</td>
 		    	<td>kleiner dargestellter Text als Normalschrift</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    		
 		    <tr>
@@ -488,7 +488,7 @@
 		    	<td>&lt;span&gt;</td>
 		    	<td>allgemeiner Bereich innerhalb eines Absatzes</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    		
 		    <tr>
@@ -496,7 +496,7 @@
 		    	<td>&lt;strong&gt;</td>
 		    	<td>stark betonter Inhalt im Text</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    	
 		    <tr>
@@ -512,7 +512,7 @@
 		    	<td>&lt;sub&gt;</td>
 		    	<td>Tiefgestellter Text</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    		
 		    <tr>
@@ -520,7 +520,7 @@
 		    	<td>&lt;sup&gt;</td>
 		    	<td>Hochgestellter Text</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		    	
 		    <tr>
@@ -599,7 +599,7 @@
 		    	<td>70</td>
 		    	<td>&lt;tt&gt;</td>
 		    	<td>&gt;&gt;Fernschreiber&lt;&lt;-Text</td>
-		    	<td></td>
+		    	<td>Inline-Element</td>
 		    	<td></td>
 		    </tr>
 	
@@ -616,7 +616,7 @@
 		    	<td>&lt;var&gt;</td>
 		    	<td>Variabler Name in einem dokumentierenden Text</td>
 		    	<td>Inline-Element</td>
-		    	<td></td>
+		    	<td>semantisch</td>
 		    </tr>
 		</tbody>
 	    </table>
