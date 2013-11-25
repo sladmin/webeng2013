@@ -547,7 +547,7 @@
                 <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fsladannencic.cloudcontrolled.com%2F"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" /></a>
   	        </p>
             <p class="valid">
-                <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fsladannencic.cloudcontrolled.com%2F&profile=css2&usermedium=all&warning=2&vextwarning="><img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
+                <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fsladannencic.cloudcontrolled.com%2F&ampprofile=css2&ampusermedium=all&ampwarning=2&ampvextwarning="><img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
 	        </p>
   	    </div>
    	</body>
