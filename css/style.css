@@ -89,12 +89,19 @@ tr:hover td {
 	display : inline;
 	padding-right : 0.3em;
 	color : white;
+	
+}
+
+p.valid {
+	border : 0;
+	width : 5.5em;
+	height : 2em;
 }
 
 p.valid:link {
 	text-decoration : none;
 }
 
-p.valid: {
+p.valid:visited {
 	text-decoration : none;
 }
