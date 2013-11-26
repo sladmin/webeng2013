@@ -52,22 +52,22 @@
 				    	<td>3</td>
 				    	<td>&lt;acronym&gt;&lt;/acronym&gt;</td>
 				    	<td>Aussprechbare Abkürzung, z.B. NATO oder WYSIWYG.</td>
-				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>Inline-Element</td>
+				    	<td>semantisch</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>4</td>
 				    	<td>&lt;address&gt;&lt;/address&gt;</td>
 				    	<td>Kontaktangabe zum Autor eines Inhalts (Credits)</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>semantisch</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>5</td>
 				    	<td>&lt;area /&gt;</td>
 				    	<td>Verweis-sensitiver Bereich in einer Image-Map-Grafik</td>
-				    	<td></td>
-				    	<td></td>
+				    	<td>Inline-Element</td>
+				    	<td>semantisch</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>6</td>
@@ -80,7 +80,7 @@
 				    	<td>7</td>
 				    	<td>&lt;base /&gt;</td>
 				    	<td>Basis-URL für Referenzen</td>
-				    	<td></td>
+				    	<td>Inline-Element</td>
 				    	<td></td>
 				    </tr>				    		
 				    <tr>
