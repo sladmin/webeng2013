@@ -60,14 +60,14 @@
 				    	<td>&lt;address&gt;&lt;/address&gt;</td>
 				    	<td>Kontaktangabe zum Autor eines Inhalts (Credits)</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>semantisch</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>5</td>
 				    	<td>&lt;area /&gt;</td>
 				    	<td>Verweis-sensitiver Bereich in einer Image-Map-Grafik</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>6</td>
@@ -81,7 +81,7 @@
 				    	<td>&lt;base /&gt;</td>
 				    	<td>Basis-URL für Referenzen</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>8</td>
@@ -102,14 +102,14 @@
 				    	<td>&lt;blockquote&gt;&lt;/blockquote&gt;</td>
 				    	<td>Zitat in Form eines eigenen Textabsatzes</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>11</td>
 				    	<td>&lt;body&gt;&lt;/body&gt;</td>
 				    	<td>Inhaltsbereich eines HTML-Dokuments</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>12</td>
@@ -130,7 +130,7 @@
 				    	<td>&lt;caption&gt;&lt;/caption&gt;</td>
 				    	<td>Tabellenüberschrift / -unterschrift</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>semantisch</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>15</td>
@@ -143,7 +143,7 @@
 				    	<td>16</td>
 				    	<td>&lt;code&gt;&lt;/code&gt;</td>
 				    	<td>Quelltext-Auszug innerhalb eines Absatzes</td>
-				    	<td>Inline-Element</td>
+				    	<td>Block-Element</td>
 				    	<td>semantisch</td>
 				    </tr>				    		
 				    <tr>
@@ -151,28 +151,28 @@
 				    	<td>&lt;col /&gt;</td>
 				    	<td>Tabellenspalte</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    
 				    <tr>
 				    	<td>18</td>
 				    	<td>&lt;colgroup&gt;&lt;/colgroup&gt;</td>
 				    	<td>Gruppe von Tabellenspalten</td>
 				    	<td></td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 				    	<td>19</td>
 				    	<td>&lt;dd&gt;&lt;/dd&gt;</td>
 				    	<td>Definition, Beschreibung, detaillierter Inhalt zu einem dt-Element</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>semantisch</td>
 				    </tr>				    	
 				    <tr>
 				    	<td>20</td>
 				    	<td>&lt;del&gt;&lt;/del&gt;</td>
 				    	<td>gelöschter Inhalt (Änderungsmarkierung)</td>
-				    	<td>Block/Inline-Element</td>
-				    	<td></td>
+				    	<td>Inline-Element</td>
+				    	<td>semantisch</td>
 				    </tr>				    
 				    <tr>
 				    	<td>21</td>
@@ -186,21 +186,21 @@
 				    	<td>&lt;div&gt;&lt;/div&gt;</td>
 				    	<td>Allgemeiner Bereich</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    
 				    <tr>
 				    	<td>23</td>
 				    	<td>&lt;dl&gt;&lt;/dl&gt;</td>
 				    	<td>Liste mit dt- und dd-Elementen, für Definitionslisten, Dialoge usw.</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>semantisch</td>
 				    </tr>				    
 				    <tr>
 				    	<td>24</td>
 				    	<td>&lt;dt&gt;&lt;/dt&gt;</td>
 				    	<td>Zu definierender Ausdruck in einer Definitionsliste, Sprechername in einem Dialog usw.</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>semantisch</td>
 				    </tr>				    
 				    <tr>
 				    	<td>25</td>
@@ -214,14 +214,14 @@
 				    	<td>&lt;fieldset&gt;&lt;/fieldset&gt;</td>
 				    	<td>Gruppe von Elementen in einem Formular, Reiter in einem Dialog</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>		
 		            <tr>
 				    	<td>27</td>
 				    	<td>&lt;form&gt;&lt;/form&gt;</td>
 				    	<td>Formular, Dialog</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    
 				    <tr>
 				    	<td>28</td>
@@ -234,50 +234,50 @@
 				    	<td>29</td>
 				    	<td>&lt;head&gt;&lt;/head&gt;</td>
 				    	<td>Kopfbereich eines HTML-Dokuments</td>
-				    	<td></td>
-				    	<td></td>
+				    	<td>Dokumentstruktur-Element</td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 				    	<td>30</td>
 				    	<td>&lt;hr /&gt;</td>
 				    	<td>Trennlinie</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>31</td>
 				    	<td>&lt;html&gt;&lt;/html&gt;</td>
 				    	<td>Dokumentelement von HTML-Dokumenten, schließt das gesamte Dokument ein</td>
-				    	<td></td>
-				    	<td></td>
+				    	<td>Dokumentstruktur-Element</td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>32</td>
 				    	<td>&lt;i&gt;&lt;/i&gt;</td>
 				    	<td>spezieller Ausdruck im Text, z.B. Fachterminus oder Idiom (üblicherweise kursiv dargestellt)</td>
 				    	<td>Inline-Element</td>
-				    	<td>semantisch</td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 				    	<td>33</td>
 				    	<td>&lt;img /&gt;</td>
 				    	<td>Referenzierte und eingebettete Grafik</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>34</td>
 				    	<td>&lt;input /&gt;</td>
 				    	<td>Formularelement, verwendbar für diverse Typen wie Eingabefelder, Schaltflächen, Auswahlfelder usw.</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>35</td>
 				    	<td>&lt;ins&gt;&lt;/ins&gt;</td>
 				        <td>Eingefügter Inhalt (Änderungsmarkierung)</td>
-				    	<td>Block/Inline-Element</td>
-				    	<td></td>
+				    	<td>Inline-Element</td>
+				    	<td>semantisch</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>36</td>
@@ -286,68 +286,68 @@
 				    	<td>Inline-Element</td>
 				    	<td>semantisch</td>
 				    </tr>		
-		            <tr>
+		            	    <tr>
 		    			<td>37</td>
 				    	<td>&lt;label&gt;&lt;/label&gt;</td>
 				    	<td>Beschriftungstext eines Formularfeldes</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    
 				    <tr>
 				    	<td>38</td>
 				    	<td>&lt;legend&gt;&lt;/legend&gt;</td>
 				    	<td>Überschrift für eine fieldset-Gruppe von Elementen in einem Formular</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>39</td>
 				    	<td>&lt;li&gt;&lt;/li&gt;</td>
 				    	<td>Listenpunkt in einer ul-, ol- oder menu-Liste</td>
 				    	<td>Block-Element</td>
-				        <td></td>
+				        <td>semantisch</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>40</td>
 				    	<td>&lt;link /&gt;</td>
 				    	<td>Logische Beziehungen der aktuellen Webseite zu anderen Webseiten</td>
 				    	<td></td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 				    	<td>41</td>
 				    	<td>&lt;map&gt;&lt;/map&gt;</td>
 				    	<td>Bereich für verweis-sensitive Grafiken</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 				    	<td>42</td>
 				    	<td>&lt;meta /&gt;</td>
 				    	<td>Meta-Angabe für nicht im Inhalt sichtbare Dokumentinformationen oder für Anweisungen an den Webserver</td>
-				    	<td></td>
-				    	<td></td>
+				    	<td>Meta-Element</td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 					    <td>43</td>
 					    <td>&lt;noscript&gt;&lt;/noscript&gt;</td>
 					    <td>Bereich für Inhalte, die angezeigt werden, wenn JavaScript im Browser deaktiviert oder nicht verfügbar ist</td>
 					    <td>Block-Element</td>
-					    <td></td>
+					    <td>nein</td>
 				    </tr>				    		
 				    <tr>
 					<td>44</td>
 					    <td>&lt;object&gt;&lt;/object&gt;</td>
 					    <td>Eingebettetes Objekt, geeignet für spezielle Multimedia-Objekte, Java-Applets usw.</td>
 					    <td>Inline-Element</td>
-					    <td></td>
+					    <td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>45</td>
 				    	<td>&lt;ol&gt;&lt;/ol&gt;</td>
 				    	<td>Geordnete (z.B. nummerierte) Liste</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>46</td>
@@ -361,28 +361,28 @@
 				    	<td>&lt;option&gt;&lt;/option&gt;</td>
 				    	<td>Auswahlmöglichkeit in einer Auswahlliste</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 				    	<td>48</td>
 				    	<td>&lt;p&gt;&lt;/p&gt;</td>
 				    	<td>Textabsatz</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>49</td>
 				        <td>&lt;param /&gt;</td>
 				    	<td>Parameter eines Objekts bei object-Element</td>
 				    	<td></td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				        <td>50</td>
 				    	<td>&lt;pre&gt;&lt;/pre&gt;</td>
 				    	<td>Präformatierter Text (alle Whitespace-Zeichen werden im Browser so dargestellt wie im Text enthalten)</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 				    	<td>51</td>
@@ -403,14 +403,14 @@
 				    	<td>&lt;script&gt;&lt;/script&gt;</td>
 				    	<td>Scriptbereich für JavaScript und andere Scriptsprachen</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 				    	<td>54</td>
 				    	<td>&lt;select&gt;&lt;/select&gt;</td>
 				    	<td>Auswahlliste in einem Formular</td>
 				    	<td>Inline-Element</td>
-				        <td></td>
+				        <td>nein</td>
 				    </tr>				    
 				    <tr>
 				    	<td>55</td>
@@ -437,85 +437,85 @@
 				    	<td>58</td>
 				    	<td>&lt;style&gt;&lt;/style&gt;</td>
 				    	<td>Bereich für Stylesheet-Definitionen, z.B. in CSS</td>
-				    	<td></td>
-				    	<td></td>
+				    	<td>Darstellungsdefinitions-Element</td>
+				    	<td>nein</td>
 				    </tr>				    	
 				    <tr>
 				    	<td>59</td>
 				    	<td>&lt;sub&gt;&lt;/sub&gt;</td>
 				    	<td>Tiefgestellter Text</td>
 				    	<td>Inline-Element</td>
-				    	<td>semantisch</td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>60</td>
 				    	<td>&lt;sup&gt;&lt;/sup&gt;</td>
 				    	<td>Hochgestellter Text</td>
 				    	<td>Inline-Element</td>
-				    	<td>semantisch</td>
+				    	<td>nein</td>
 				    </tr>				    	
 				    <tr>
 				        <td>61</td>
 				    	<td>&lt;table&gt;&lt;/table&gt;</td>
 				    	<td>Tabelle</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>62</td>
 				    	<td>&lt;tbody&gt;&lt;/tbody&gt;</td>
 				    	<td>Tabellenkörper mit den eigentlichen Daten</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>63</td>
 				    	<td>&lt;td&gt;&lt;/td&gt;</td>
 				    	<td>Tabellenzelle</td>
 				        <td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>64</td>
 				    	<td>&lt;textarea&gt;&lt;/textarea&gt;</td>
 				    	<td>Mehrzeiliger Eingabebereich in einem Formular</td>
 				    	<td>Inline-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				        <td>65</td>
 				    	<td>&lt;tfoot&gt;&lt;/tfoot&gt;</td>
 				    	<td>Fußbereich in einer Tabelle, z.B. für summarische Daten</td>
 				    	<td>Block-Element</td>
-				    	<td>semantisch</td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>66</td>
 				    	<td>&lt;th&gt;&lt;/th&gt;</td>
 				    	<td>Tabellenkopfzelle</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    
 				    <tr>
 				    	<td>67</td>
 				    	<td>&lt;thead&gt;&lt;/thead&gt;</td>
 				    	<td>Kopfbereich einer Tabelle</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>		
 				    <tr>
 			    	    <td>68</td>
 				    	<td>&lt;title&gt;&lt;/title&gt;</td>
 				    	<td>Titel eines HTML-Dokuments</td>
-				    	<td></td>
-				    	<td></td>
+				    	<td>Header-Element</td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>69</td>
 				    	<td>&lt;tr&gt;&lt;/tr&gt;</td>
 				    	<td>Tabellenzeile</td>
-				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>Inline-Element</td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>70</td>
@@ -529,7 +529,7 @@
 				    	<td>&lt;ul&gt;&lt;/ul&gt;</td>
 				    	<td>Unsortierte Liste (Aufzählungsliste)</td>
 				    	<td>Block-Element</td>
-				    	<td></td>
+				    	<td>nein</td>
 				    </tr>				    		
 				    <tr>
 				    	<td>72</td>
